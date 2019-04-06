@@ -6,7 +6,7 @@ metadata:
     name: nginx
 spec:
   containers:
-  - name: nginx
+  - name: nginx-argo
     image: nginx
     ports:
     - containerPort: 80
